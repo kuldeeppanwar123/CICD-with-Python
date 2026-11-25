@@ -1,5 +1,6 @@
 import smtplib
-from email.mime.text import MIMEMultipart, MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 import os
 
 def send_mail(workflow_name, repo_name, workflow_run_id):
